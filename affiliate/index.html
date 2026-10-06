@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Affiliate-Hinweis der Software-Deals.de – Erklärung der Partnerschaften, der Provisionen und der transparenten Werbung gemäß den Regeln der FTC und deutschen Rechten.">
+  <title>Affiliate-Hinweis – Software-Deals.de</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="canonical" href="https://software-deals.example/affiliate/">
+  <meta property="og:title" content="Affiliate-Hinweis – Software-Deals.de">
+  <meta property="og:description" content="Affiliate-Hinweis der Software-Deals.de – Informationen zu unseren Partnerprogrammen und Provisionen.">
+  <meta property="og:type" content="website">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="/" class="brand">
+      <span class="brand-mark">S</span>
+      Software-Deals
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="/angebote/">Angebote</a>
+      <a href="/vergleiche/">Vergleiche</a>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="/marken/">Marken</a>
+      <a href="/about/">Über uns</a>
+      <a href="/impressum/">Impressum</a>
+      <a href="/datenschutz/">Datenschutz</a>
+      <a href="/affiliate/">Affiliate</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="page container" style="padding-top:40px;">
+  <h1>Affiliate-Hinweis</h1>
+  <p class="text-soft" style="max-width:800px;">Transparente Partnerschaften – so funktioniert Software-Deals</p>
+
+  <div style="max-width:800px;line-height:1.9;">
+    <p style="margin-bottom:12px;"><strong>1. Was ist ein Affiliate-Hinweis?</strong></p>
+    <p>Software-Deals ist ein Affiliate-basiertes Informationsportal. Wenn Sie über einer unserer Empfehlungen oder Links zu einem Dienstleister oder einem Angebot einkaufen, können wir eine Provision erhalten – ohne dass sich Ihr Preis ändert. Dies ist unsere Möglichkeit, unsere Arbeit aufrechtzuerhalten und die Website kostenlos zu betreiben.</p>
+
+    <p style="margin-bottom:12px;"><strong>2. Welche Affiliate- Programme nutzen wir?</strong></p>
+    <ul style="margin-bottom:12px;">
+      <li><strong>Amazon Associates (Partnerschaft)</strong> – für entsprechende Kaufverknüpfungen von Microsoft 365, Office, Antivirus, VPN und anderen Software.</li>
+      <li><strong>Microsoft Partner Network</strong> – für Microsoft-Produkte wie Microsoft 365, Office, Teams.</li>
+      <li><strong>Hersteller-Affiliate-Programme</strong> – für Antivirus- (Norton, Bitdefender, Kaspersky, ESET) und VPN- (NordVPN, Surfshark) Angebote.</li>
+      <li><strong>Weitere Affiliate-Netzwerke</strong> – Software.net, Kowabunga, Impact, CJ Affiliate für die Vielfalt der Software-Partner.</li>
+    </ul>
+
+    <p style="margin-bottom:12px;"><strong>3. Genehmigung und Hinterfragen</strong></p>
+    <p>Wir prüfen die Programme jedes Adressats. Angebote und Provisionen werden extern überprüft und dem aktuellen Stand angepasst. Wir veröffentlichen die Provisionen transparenterweise und orientieren uns an den offiziellen Programminformationen der Anbieter.</p>
+
+    <p style="margin-bottom:12px;"><strong>4. Vereinbarung der Vorgänge</strong></p>
+    <p>Wir gehören in den USA und haben keine Bezugs-Synonyme oder Dritte. Wir sind verpflichtet, alle Affiliate-Programme nach den Regeln der FTC und gemäß deutschen Rechten (§ 6 UWG, EU-Sog) zu verstecken. Der Klick auf einen Affiliate-Link ist eine Vereinbarung und erweckt keinen Eindruck von einem Kauf oder Vertrauen von Dritten.</p>
+
+    <p style="margin-bottom:12px;"><strong>5. Unser Versprechen</strong></p>
+    <p>Wir wählen nur Affiliate-Programme aus, die zu unserer Zielgruppe passen und die Qualität unserer Bewertungen fördern. Wir empfehlen nur Produkte, an die wir unseren Namen geknüpft haben, und gehen davon aus, dass Sie mit den gezeigten Angeboten zufrieden sind.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-brand">Software-Deals</div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Software-Deals. Alle Preise als Orientierungswerte.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.site-header')) navLinks.classList.remove('open');
+  });
+</script>
+
+</body>
+</html>

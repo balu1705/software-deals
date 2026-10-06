@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Prio
+Sitemap: https://software-deals.example/sitemap.xml
+
+# Crawl delay (optional, if needed)
+# Crawl-delay: 1
+
+# Block access to admin / config
+Disallow: /admin/
+Disallow: /config/
+Disallow: /.git/
+Disallow: /license.txt
+
+# Allow images
+Allow: /assets/images/
+
+# Sitemap XML
+Sitemap: https://software-deals.example/sitemap.xml
