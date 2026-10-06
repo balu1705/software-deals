@@ -44,8 +44,8 @@
       <p>Vergleich &amp; Deal-Suche für Microsoft 365, Office, Antivirus, VPN und mehr.<br>
       Klare Kostenlos – nurutschrechnung und aktuelle Angebote zu jedem Preis.</p>
       <div class="hero-actions">
-        <a href="/angebote/" class="btn btn-primary">Alle Angebote ansehen</a>
-        <a href="/ratgeber/" class="btn btn-outline">Ratgeber lesen</a>
+        <a href="/angebote/" class="btn btn-lg btn-primary">Alle Angebote ansehen <span class="btn-arrow">→</span></a>
+        <a href="/ratgeber/" class="btn btn-lg btn-outline">Jetzt raten <span class="btn-arrow">→</span></a>
       </div>
     </div>
     <div class="newsletter">
@@ -93,6 +93,24 @@
     </div>
   </div>
 
+  <div class="cta-banner">
+    <div class="container">
+      <div class="cta-grid">
+        <div class="cta-item">
+          <span class="cta-price">ab 2,49 €</span>
+          <h4>VPN-Deal der Woche</h4>
+          <p>Surfshark + NordVPN Kombination</p>
+          <a href="/angebote/vpn/" class="btn btn-primary btn-sm">Jetzt entdecken</a>
+        </div>
+        <div class="cta-item">
+          <span class="cta-price">ab 1,99 €</span>
+          <h4>Antivirus-Deal</h4>
+          <p>Bitdefender oder Norton ab 1,99 €/Monat</p>
+          <a href="/angebote/antiviren/" class="btn btn-primary btn-sm">Jetzt entdecken</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="mt-4">
     <h2 style="font-size:24px;letter-spacing:-0.6px;">Beliebte Vergleiche</h2>
     <div class="product-grid">
@@ -203,5 +221,105 @@
   });
 </script>
 
-</body>
+
+<style>
+/* Additional CTA styles */
+.btn-lg {
+  padding: 14px 28px;
+  font-size: 18px;
+}
+.btn-lg .btn-arrow {
+  margin-left: 10px;
+}
+.btn-sm .btn-arrow {
+  margin-left: 8px;
+}
+/* CTA Banner */
+.cta-banner {
+  background: linear-gradient(135deg, #1a7f37 0%, #2d9e5f 100%);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+.cta-banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+.cta-item {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.cta-item .cta-price {
+  display: block;
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.cta-item h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.cta-item p {
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.cta-item .btn {
+  background: rgba(255,255,255,0.9);
+  color: #1a7f37;
+  border-color: #fff;
+}
+.cta-item .btn:hover {
+  background: #fff;
+}
+/* CTA Footer */
+.cta-footer {
+  background: #f8f9fa;
+  border-top: 3px solid #e6f4ea;
+  margin-top: 48px;
+  padding: 32px 0;
+}
+.cta-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+.cta-footer div {
+  min-width: 180px;
+}
+.cta-footer h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6c757d;
+  margin-bottom: 12px;
+}
+.cta-footer a {
+  display: block;
+  color: #495057;
+  text-decoration: none;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.cta-footer a:hover {
+  color: #1a7f37;
+}
+.cta-footer .text-soft {
+  font-size: 13px;
+}
+</style></body>
 </html>
