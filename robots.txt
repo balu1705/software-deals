@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Prio
-Sitemap: https://software-deals.example/sitemap.xml
+Sitemap: https://balu1705.github.io/software-deals/sitemap.xml
 
 # Crawl delay (optional, if needed)
 # Crawl-delay: 1
@@ -17,4 +17,4 @@ Disallow: /license.txt
 Allow: /assets/images/
 
 # Sitemap XML
-Sitemap: https://software-deals.example/sitemap.xml
+Sitemap: https://balu1705.github.io/software-deals/sitemap.xml
